@@ -1,0 +1,148 @@
+{
+"items": [
+{
+"id": "item_newbie_01",
+"name": "Novice Leather Helm",
+"type": "helmet",
+"tier": "newbie",
+"price": 100,
+"maxSockets": 2,
+"allowedGemTypes": ["evasion_%", "precision_%"]
+},
+{
+"id": "item_newbie_02",
+"name": "Novice Leather Tunic",
+"type": "bodyArmor",
+"tier": "newbie",
+"price": 250,
+"maxSockets": 2,
+"allowedGemTypes": ["hp_flat", "hp_regen_flat", "hp_regen_%", "armor_flat", "mp_flat", "mp_regen_flat", "mp_regen_%"]
+},
+{
+"id": "item_newbie_03",
+"name": "Novice Spaulders",
+"type": "pauldron",
+"tier": "newbie",
+"price": 150,
+"maxSockets": 1,
+"allowedGemTypes": ["resistance_blunt", "resistance_piercing", "resistance_slash", "resistance_elemental"]
+},
+{
+"id": "item_newbie_04",
+"name": "Novice Bracers",
+"type": "gloves",
+"tier": "newbie",
+"price": 120,
+"maxSockets": 2,
+"allowedGemTypes": ["atk_flat", "atk_%", "atk_speed_flat", "atk_speed_%"]
+},
+{
+"id": "item_newbie_05",
+"name": "Novice Cord",
+"type": "belt",
+"tier": "newbie",
+"price": 100,
+"maxSockets": 1,
+"allowedGemTypes": ["hp_flat", "hp_regen_flat", "hp_regen_%", "mp_flat", "mp_regen_flat", "mp_regen_%"]
+},
+{
+"id": "item_newbie_06",
+"name": "Novice Trousers",
+"type": "leggings",
+"tier": "newbie",
+"price": 200,
+"maxSockets": 2,
+"allowedGemTypes": ["hp_flat", "hp_regen_flat", "hp_regen_%", "armor_flat", "mp_flat", "mp_regen_flat", "mp_regen_%"]
+},
+{
+"id": "item_newbie_07",
+"name": "Novice Boots",
+"type": "boots",
+"tier": "newbie",
+"price": 150,
+"maxSockets": 2,
+"allowedGemTypes": ["movement_speed_flat", "evasion_%"]
+},
+{
+"id": "item_newbie_08",
+"name": "Novice Amulet",
+"type": "necklace",
+"tier": "newbie",
+"price": 300,
+"maxSockets": 1,
+"allowedGemTypes": ["any"]
+},
+{
+"id": "item_newbie_09",
+"name": "Novice Signet",
+"type": "ring",
+"tier": "newbie",
+"price": 250,
+"maxSockets": 1,
+"allowedGemTypes": ["any"]
+},
+{
+"id": "item_advance_02",
+"name": "Adventurer's Chainmail",
+"type": "bodyArmor",
+"tier": "advance",
+"price": 1200,
+"maxSockets": 3,
+"allowedGemTypes": ["hp_flat", "hp_regen_flat", "hp_regen_%", "armor_flat", "mp_flat", "mp_regen_flat", "mp_regen_%"]
+},
+{
+"id": "item_advance_06",
+"name": "Adventurer's Chausses",
+"type": "leggings",
+"tier": "advance",
+"price": 1000,
+"maxSockets": 3,
+"allowedGemTypes": ["hp_flat", "hp_regen_flat", "hp_regen_%", "armor_flat", "mp_flat", "mp_regen_flat", "mp_regen_%"]
+},
+{
+"id": "item_masterful_05",
+"name": "Veteran's Girdle",
+"type": "belt",
+"tier": "masterful",
+"price": 4500,
+"maxSockets": 2,
+"allowedGemTypes": ["hp_flat", "hp_regen_flat", "hp_regen_%", "mp_flat", "mp_regen_flat", "mp_regen_%"]
+},
+{
+"id": "item_elite_02",
+"name": "Champion's Cuirass",
+"type": "bodyArmor",
+"tier": "elite",
+"price": 12500,
+"maxSockets": 4,
+"allowedGemTypes": ["hp_flat", "hp_regen_flat", "hp_regen_%", "armor_flat", "mp_flat", "mp_regen_flat", "mp_regen_%"]
+},
+{
+"id": "item_legendary_05",
+"name": "Heroic Sash",
+"type": "belt",
+"tier": "legendary",
+"price": 35000,
+"maxSockets": 3,
+"allowedGemTypes": ["hp_flat", "hp_regen_flat", "hp_regen_%", "mp_flat", "mp_regen_flat", "mp_regen_%"]
+},
+{
+"id": "item_mythical_02",
+"name": "God-King's Aegis",
+"type": "bodyArmor",
+"tier": "mythical",
+"price": 100000,
+"maxSockets": 5,
+"allowedGemTypes": ["hp_flat", "hp_regen_flat", "hp_regen_%", "armor_flat", "mp_flat", "mp_regen_flat", "mp_regen_%"]
+},
+{
+"id": "item_mythical_06",
+"name": "God-King's Stride",
+"type": "boots",
+"tier": "mythical",
+"price": 75000,
+"maxSockets": 2,
+"allowedGemTypes": ["movement_speed_flat", "evasion_%"]
+}
+]
+}
