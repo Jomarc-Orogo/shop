@@ -1,0 +1,194 @@
+{
+  "gems": [
+    {
+      "name": "Newbie Vitality Ruby",
+      "gemCategory": "stat",
+      "statType": "HP flat+",
+      "value": 40,
+      "isPercentage": false,
+      "tier": "newbie",
+      "price": 50,
+      "allowedSlots": ["body_armor", "belt", "leggings"]
+    },
+    {
+      "name": "Newbie Ironhide Topaz",
+      "gemCategory": "stat",
+      "statType": "Armor flat+",
+      "value": 25,
+      "isPercentage": false,
+      "tier": "newbie",
+      "price": 50,
+      "allowedSlots": ["body_armor", "leggings"]
+    },
+    {
+      "name": "Newbie Mana Sapphire",
+      "gemCategory": "stat",
+      "statType": "MP flat+",
+      "value": 35,
+      "isPercentage": false,
+      "tier": "newbie",
+      "price": 50,
+      "allowedSlots": ["body_armor", "belt", "leggings"]
+    },
+    {
+      "name": "Newbie Windstep Jade",
+      "gemCategory": "stat",
+      "statType": "Movement Speed flat+",
+      "value": 15,
+      "isPercentage": false,
+      "tier": "newbie",
+      "price": 60,
+      "allowedSlots": ["boots"]
+    },
+    {
+      "name": "Newbie Shadow Emerald",
+      "gemCategory": "stat",
+      "statType": "Evasion +%",
+      "value": 6,
+      "isPercentage": true,
+      "tier": "newbie",
+      "price": 60,
+      "allowedSlots": ["helm", "boots"]
+    },
+    {
+      "name": "Newbie Keen Garnet",
+      "gemCategory": "stat",
+      "statType": "Precision +%",
+      "value": 8,
+      "isPercentage": true,
+      "tier": "newbie",
+      "price": 60,
+      "allowedSlots": ["helm"]
+    },
+    {
+      "name": "Newbie Striker Onyx",
+      "gemCategory": "stat",
+      "statType": "ATK flat+",
+      "value": 20,
+      "isPercentage": false,
+      "tier": "newbie",
+      "price": 65,
+      "allowedSlots": ["gloves"]
+    },
+    {
+      "name": "Newbie Swift Quartz",
+      "gemCategory": "stat",
+      "statType": "ATK Speed +%",
+      "value": 7,
+      "isPercentage": true,
+      "tier": "newbie",
+      "price": 65,
+      "allowedSlots": ["gloves"]
+    },
+    {
+      "name": "Newbie Elemental Ward",
+      "gemCategory": "stat",
+      "statType": "Resistance: Elemental",
+      "value": 8,
+      "isPercentage": true,
+      "tier": "newbie",
+      "price": 60,
+      "allowedSlots": ["pauldrons"]
+    },
+    {
+      "name": "Advance Crimson Ruby",
+      "gemCategory": "stat",
+      "statType": "HP flat+",
+      "value": 85,
+      "isPercentage": false,
+      "tier": "advance",
+      "price": 180,
+      "allowedSlots": ["body_armor", "belt", "leggings"]
+    },
+    {
+      "name": "Masterful Titan Diamond",
+      "gemCategory": "stat",
+      "statType": "Armor flat+",
+      "value": 160,
+      "isPercentage": false,
+      "tier": "masterful",
+      "price": 450,
+      "allowedSlots": ["body_armor", "leggings"]
+    },
+    {
+      "name": "Elite Phantom Opal",
+      "gemCategory": "stat",
+      "statType": "Crit Rate +%",
+      "value": 35,
+      "isPercentage": true,
+      "tier": "elite",
+      "price": 1100,
+      "allowedSlots": ["necklace", "ring"]
+    },
+    {
+      "name": "Legendary Dragonheart Ruby",
+      "gemCategory": "stat",
+      "statType": "HP flat+",
+      "value": 550,
+      "isPercentage": false,
+      "tier": "legendary",
+      "price": 2800,
+      "allowedSlots": ["body_armor", "belt", "leggings"]
+    },
+    {
+      "name": "Mythical Godspeed Pearl",
+      "gemCategory": "stat",
+      "statType": "Movement Speed flat+",
+      "value": 1200,
+      "isPercentage": false,
+      "tier": "mythical",
+      "price": 7500,
+      "allowedSlots": ["boots"]
+    },
+    {
+      "name": "Heavy Slash (Active)",
+      "gemCategory": "active_skill",
+      "statType": "Active Skill: 140% Physical DMG (15 MP)",
+      "value": 140,
+      "isPercentage": true,
+      "tier": "newbie",
+      "price": 100,
+      "allowedSlots": ["helm", "body_armor"]
+    },
+    {
+      "name": "Second Wind (Active)",
+      "gemCategory": "active_skill",
+      "statType": "Active Skill: Restore 20% Max HP (25 MP)",
+      "value": 20,
+      "isPercentage": true,
+      "tier": "newbie",
+      "price": 120,
+      "allowedSlots": ["helm", "body_armor"]
+    },
+    {
+      "name": "Arcane Bolt (Active)",
+      "gemCategory": "active_skill",
+      "statType": "Active Skill: 160% Elemental DMG (20 MP)",
+      "value": 160,
+      "isPercentage": true,
+      "tier": "advance",
+      "price": 260,
+      "allowedSlots": ["helm", "body_armor"]
+    },
+    {
+      "name": "Life Leech Support",
+      "gemCategory": "support_skill",
+      "statType": "Support: Linked Active heals 10% of DMG dealt",
+      "value": 10,
+      "isPercentage": true,
+      "tier": "newbie",
+      "price": 90,
+      "allowedSlots": ["helm", "body_armor"]
+    },
+    {
+      "name": "Mana Efficiency Support",
+      "gemCategory": "support_skill",
+      "statType": "Support: Linked Active costs 20% less MP",
+      "value": 20,
+      "isPercentage": true,
+      "tier": "newbie",
+      "price": 90,
+      "allowedSlots": ["helm", "body_armor"]
+    }
+  ]
+}
