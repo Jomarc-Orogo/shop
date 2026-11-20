@@ -1,194 +1,9100 @@
 {
-  "gems": [
-    {
-      "name": "Newbie Vitality Ruby",
-      "gemCategory": "stat",
-      "statType": "HP flat+",
-      "value": 40,
-      "isPercentage": false,
-      "tier": "newbie",
-      "price": 50,
-      "allowedSlots": ["body_armor", "belt", "leggings"]
-    },
-    {
-      "name": "Newbie Ironhide Topaz",
-      "gemCategory": "stat",
-      "statType": "Armor flat+",
-      "value": 25,
-      "isPercentage": false,
-      "tier": "newbie",
-      "price": 50,
-      "allowedSlots": ["body_armor", "leggings"]
-    },
-    {
-      "name": "Newbie Mana Sapphire",
-      "gemCategory": "stat",
-      "statType": "MP flat+",
-      "value": 35,
-      "isPercentage": false,
-      "tier": "newbie",
-      "price": 50,
-      "allowedSlots": ["body_armor", "belt", "leggings"]
-    },
-    {
-      "name": "Newbie Windstep Jade",
-      "gemCategory": "stat",
-      "statType": "Movement Speed flat+",
-      "value": 15,
-      "isPercentage": false,
-      "tier": "newbie",
-      "price": 60,
-      "allowedSlots": ["boots"]
-    },
-    {
-      "name": "Newbie Shadow Emerald",
-      "gemCategory": "stat",
-      "statType": "Evasion +%",
-      "value": 6,
-      "isPercentage": true,
-      "tier": "newbie",
-      "price": 60,
-      "allowedSlots": ["helm", "boots"]
-    },
-    {
-      "name": "Newbie Keen Garnet",
-      "gemCategory": "stat",
-      "statType": "Precision +%",
-      "value": 8,
-      "isPercentage": true,
-      "tier": "newbie",
-      "price": 60,
-      "allowedSlots": ["helm"]
-    },
-    {
-      "name": "Newbie Striker Onyx",
-      "gemCategory": "stat",
-      "statType": "ATK flat+",
-      "value": 20,
-      "isPercentage": false,
-      "tier": "newbie",
-      "price": 65,
-      "allowedSlots": ["gloves"]
-    },
-    {
-      "name": "Newbie Swift Quartz",
-      "gemCategory": "stat",
-      "statType": "ATK Speed +%",
-      "value": 7,
-      "isPercentage": true,
-      "tier": "newbie",
-      "price": 65,
-      "allowedSlots": ["gloves"]
-    },
-    {
-      "name": "Newbie Elemental Ward",
-      "gemCategory": "stat",
-      "statType": "Resistance: Elemental",
-      "value": 8,
-      "isPercentage": true,
-      "tier": "newbie",
-      "price": 60,
-      "allowedSlots": ["pauldrons"]
-    },
-    {
-      "name": "Advance Crimson Ruby",
-      "gemCategory": "stat",
-      "statType": "HP flat+",
-      "value": 85,
-      "isPercentage": false,
-      "tier": "advance",
-      "price": 180,
-      "allowedSlots": ["body_armor", "belt", "leggings"]
-    },
-    {
-      "name": "Masterful Titan Diamond",
-      "gemCategory": "stat",
-      "statType": "Armor flat+",
-      "value": 160,
-      "isPercentage": false,
-      "tier": "masterful",
-      "price": 450,
-      "allowedSlots": ["body_armor", "leggings"]
-    },
-    {
-      "name": "Elite Phantom Opal",
-      "gemCategory": "stat",
-      "statType": "Crit Rate +%",
-      "value": 35,
-      "isPercentage": true,
-      "tier": "elite",
-      "price": 1100,
-      "allowedSlots": ["necklace", "ring"]
-    },
-    {
-      "name": "Legendary Dragonheart Ruby",
-      "gemCategory": "stat",
-      "statType": "HP flat+",
-      "value": 550,
-      "isPercentage": false,
-      "tier": "legendary",
-      "price": 2800,
-      "allowedSlots": ["body_armor", "belt", "leggings"]
-    },
-    {
-      "name": "Mythical Godspeed Pearl",
-      "gemCategory": "stat",
-      "statType": "Movement Speed flat+",
-      "value": 1200,
-      "isPercentage": false,
-      "tier": "mythical",
-      "price": 7500,
-      "allowedSlots": ["boots"]
-    },
-    {
-      "name": "Heavy Slash (Active)",
-      "gemCategory": "active_skill",
-      "statType": "Active Skill: 140% Physical DMG (15 MP)",
-      "value": 140,
-      "isPercentage": true,
-      "tier": "newbie",
-      "price": 100,
-      "allowedSlots": ["helm", "body_armor"]
-    },
-    {
-      "name": "Second Wind (Active)",
-      "gemCategory": "active_skill",
-      "statType": "Active Skill: Restore 20% Max HP (25 MP)",
-      "value": 20,
-      "isPercentage": true,
-      "tier": "newbie",
-      "price": 120,
-      "allowedSlots": ["helm", "body_armor"]
-    },
-    {
-      "name": "Arcane Bolt (Active)",
-      "gemCategory": "active_skill",
-      "statType": "Active Skill: 160% Elemental DMG (20 MP)",
-      "value": 160,
-      "isPercentage": true,
-      "tier": "advance",
-      "price": 260,
-      "allowedSlots": ["helm", "body_armor"]
-    },
-    {
-      "name": "Life Leech Support",
-      "gemCategory": "support_skill",
-      "statType": "Support: Linked Active heals 10% of DMG dealt",
-      "value": 10,
-      "isPercentage": true,
-      "tier": "newbie",
-      "price": 90,
-      "allowedSlots": ["helm", "body_armor"]
-    },
-    {
-      "name": "Mana Efficiency Support",
-      "gemCategory": "support_skill",
-      "statType": "Support: Linked Active costs 20% less MP",
-      "value": 20,
-      "isPercentage": true,
-      "tier": "newbie",
-      "price": 90,
-      "allowedSlots": ["helm", "body_armor"]
-    }
-  ]
+ "gems": [
+  {
+   "name": "Newbie Vitality Gem",
+   "gemCategory": "stat",
+   "statType": "HP flat+",
+   "value": 21,
+   "isPercentage": false,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Newbie Vitality Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP flat+",
+   "value": 50,
+   "isPercentage": false,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Newbie Renewal Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen flat+",
+   "value": 21,
+   "isPercentage": false,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Newbie Renewal Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen flat+",
+   "value": 50,
+   "isPercentage": false,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Newbie Recovery Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen %+",
+   "value": 4.6,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Newbie Recovery Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen %+",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Newbie Ironhide Gem",
+   "gemCategory": "stat",
+   "statType": "Armor flat+",
+   "value": 21,
+   "isPercentage": false,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "body_armor",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Newbie Ironhide Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Armor flat+",
+   "value": 50,
+   "isPercentage": false,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "body_armor",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Newbie Mana Gem",
+   "gemCategory": "stat",
+   "statType": "MP flat+",
+   "value": 21,
+   "isPercentage": false,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Newbie Mana Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP flat+",
+   "value": 50,
+   "isPercentage": false,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Newbie Wellspring Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen flat+",
+   "value": 21,
+   "isPercentage": false,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Newbie Wellspring Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen flat+",
+   "value": 50,
+   "isPercentage": false,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Newbie Flow Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen %+",
+   "value": 4.6,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Newbie Flow Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen %+",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Newbie Shadow Gem",
+   "gemCategory": "stat",
+   "statType": "Evasion +%",
+   "value": 4.6,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "helm",
+    "boots"
+   ]
+  },
+  {
+   "name": "Newbie Shadow Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Evasion +%",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "helm",
+    "boots"
+   ]
+  },
+  {
+   "name": "Newbie Keen Gem",
+   "gemCategory": "stat",
+   "statType": "Precision +%",
+   "value": 4.6,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "helm"
+   ]
+  },
+  {
+   "name": "Newbie Keen Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Precision +%",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "helm"
+   ]
+  },
+  {
+   "name": "Newbie Windstep Gem",
+   "gemCategory": "stat",
+   "statType": "Movement Speed flat+",
+   "value": 21,
+   "isPercentage": false,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "boots"
+   ]
+  },
+  {
+   "name": "Newbie Windstep Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Movement Speed flat+",
+   "value": 50,
+   "isPercentage": false,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "boots"
+   ]
+  },
+  {
+   "name": "Newbie Striker Gem",
+   "gemCategory": "stat",
+   "statType": "ATK flat+",
+   "value": 21,
+   "isPercentage": false,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Newbie Striker Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK flat+",
+   "value": 50,
+   "isPercentage": false,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Newbie Fury Gem",
+   "gemCategory": "stat",
+   "statType": "ATK %+",
+   "value": 4.6,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Newbie Fury Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK %+",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Newbie Swiftness Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed flat+",
+   "value": 21,
+   "isPercentage": false,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Newbie Swiftness Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed flat+",
+   "value": 50,
+   "isPercentage": false,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Newbie Tempo Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed %+",
+   "value": 4.6,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Newbie Tempo Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed %+",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Newbie Bulwark Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Blunt",
+   "value": 4.6,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Newbie Bulwark Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Blunt",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Newbie Aegis Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Piercing",
+   "value": 4.6,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Newbie Aegis Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Piercing",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Newbie Warding Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Slash",
+   "value": 4.6,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Newbie Warding Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Slash",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Newbie Elemental Ward Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Elemental",
+   "value": 4.6,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 50,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Newbie Elemental Ward Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Elemental",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 80,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Newbie Phantom Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Rate +%",
+   "value": 2.3,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Phantom Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Rate +%",
+   "value": 5.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 120,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Ruin Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Damage +%",
+   "value": 4.6,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Ruin Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Damage +%",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 120,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Piercer Gem",
+   "gemCategory": "stat",
+   "statType": "Armor Penetration",
+   "value": 2.3,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Piercer Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Armor Penetration",
+   "value": 5.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 120,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Sunder Gem",
+   "gemCategory": "stat",
+   "statType": "Resist Shred +%",
+   "value": 2.3,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Sunder Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resist Shred +%",
+   "value": 5.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 120,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Thunder Gem",
+   "gemCategory": "stat",
+   "statType": "Stun Chance +%",
+   "value": 1.1,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Thunder Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Stun Chance +%",
+   "value": 2.5,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 120,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Crimson Gem",
+   "gemCategory": "stat",
+   "statType": "Bleed Chance +%",
+   "value": 2.3,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Crimson Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Bleed Chance +%",
+   "value": 5.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 120,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Venom Gem",
+   "gemCategory": "stat",
+   "statType": "Poison Chance +%",
+   "value": 2.3,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Venom Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Poison Chance +%",
+   "value": 5.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 120,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Frost Gem",
+   "gemCategory": "stat",
+   "statType": "Slow Chance +%",
+   "value": 2.3,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Frost Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Slow Chance +%",
+   "value": 5.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 120,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Purity Gem",
+   "gemCategory": "stat",
+   "statType": "Status Resist +%",
+   "value": 3.4,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Purity Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Status Resist +%",
+   "value": 7.5,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 120,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Leech Gem",
+   "gemCategory": "stat",
+   "statType": "Lifesteal +%",
+   "value": 0.9,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Leech Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Lifesteal +%",
+   "value": 2.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 120,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Siphon Gem",
+   "gemCategory": "stat",
+   "statType": "MP Leech +%",
+   "value": 0.5,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Siphon Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP Leech +%",
+   "value": 1.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 120,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Briar Gem",
+   "gemCategory": "stat",
+   "statType": "Thorns +%",
+   "value": 1.4,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Briar Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Thorns +%",
+   "value": 3.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 120,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Riposte Gem",
+   "gemCategory": "stat",
+   "statType": "Counter Chance +%",
+   "value": 2.3,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Riposte Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Counter Chance +%",
+   "value": 5.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 120,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Fortune Gem",
+   "gemCategory": "stat",
+   "statType": "Step Gold +%",
+   "value": 2.3,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Fortune Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Step Gold +%",
+   "value": 5.0,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 120,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Pilgrim Gem",
+   "gemCategory": "stat",
+   "statType": "Goal Reduction +%",
+   "value": 1.1,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Newbie Pilgrim Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Goal Reduction +%",
+   "value": 2.5,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 120,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Vitality Gem",
+   "gemCategory": "stat",
+   "statType": "HP flat+",
+   "value": 71,
+   "isPercentage": false,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Advance Vitality Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP flat+",
+   "value": 100,
+   "isPercentage": false,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Advance Renewal Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen flat+",
+   "value": 71,
+   "isPercentage": false,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Advance Renewal Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen flat+",
+   "value": 100,
+   "isPercentage": false,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Advance Recovery Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen %+",
+   "value": 14.6,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Advance Recovery Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen %+",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Advance Ironhide Gem",
+   "gemCategory": "stat",
+   "statType": "Armor flat+",
+   "value": 71,
+   "isPercentage": false,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "body_armor",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Advance Ironhide Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Armor flat+",
+   "value": 100,
+   "isPercentage": false,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "body_armor",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Advance Mana Gem",
+   "gemCategory": "stat",
+   "statType": "MP flat+",
+   "value": 71,
+   "isPercentage": false,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Advance Mana Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP flat+",
+   "value": 100,
+   "isPercentage": false,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Advance Wellspring Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen flat+",
+   "value": 71,
+   "isPercentage": false,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Advance Wellspring Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen flat+",
+   "value": 100,
+   "isPercentage": false,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Advance Flow Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen %+",
+   "value": 14.6,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Advance Flow Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen %+",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Advance Shadow Gem",
+   "gemCategory": "stat",
+   "statType": "Evasion +%",
+   "value": 14.6,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "helm",
+    "boots"
+   ]
+  },
+  {
+   "name": "Advance Shadow Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Evasion +%",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "helm",
+    "boots"
+   ]
+  },
+  {
+   "name": "Advance Keen Gem",
+   "gemCategory": "stat",
+   "statType": "Precision +%",
+   "value": 14.6,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "helm"
+   ]
+  },
+  {
+   "name": "Advance Keen Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Precision +%",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "helm"
+   ]
+  },
+  {
+   "name": "Advance Windstep Gem",
+   "gemCategory": "stat",
+   "statType": "Movement Speed flat+",
+   "value": 71,
+   "isPercentage": false,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "boots"
+   ]
+  },
+  {
+   "name": "Advance Windstep Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Movement Speed flat+",
+   "value": 100,
+   "isPercentage": false,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "boots"
+   ]
+  },
+  {
+   "name": "Advance Striker Gem",
+   "gemCategory": "stat",
+   "statType": "ATK flat+",
+   "value": 71,
+   "isPercentage": false,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Advance Striker Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK flat+",
+   "value": 100,
+   "isPercentage": false,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Advance Fury Gem",
+   "gemCategory": "stat",
+   "statType": "ATK %+",
+   "value": 14.6,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Advance Fury Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK %+",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Advance Swiftness Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed flat+",
+   "value": 71,
+   "isPercentage": false,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Advance Swiftness Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed flat+",
+   "value": 100,
+   "isPercentage": false,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Advance Tempo Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed %+",
+   "value": 14.6,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Advance Tempo Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed %+",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Advance Bulwark Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Blunt",
+   "value": 14.6,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Advance Bulwark Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Blunt",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Advance Aegis Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Piercing",
+   "value": 14.6,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Advance Aegis Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Piercing",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Advance Warding Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Slash",
+   "value": 14.6,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Advance Warding Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Slash",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Advance Elemental Ward Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Elemental",
+   "value": 14.6,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 180,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Advance Elemental Ward Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Elemental",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 288,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Advance Phantom Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Rate +%",
+   "value": 7.3,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Phantom Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Rate +%",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 432,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Ruin Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Damage +%",
+   "value": 14.6,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Ruin Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Damage +%",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 432,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Piercer Gem",
+   "gemCategory": "stat",
+   "statType": "Armor Penetration",
+   "value": 7.3,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Piercer Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Armor Penetration",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 432,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Sunder Gem",
+   "gemCategory": "stat",
+   "statType": "Resist Shred +%",
+   "value": 7.3,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Sunder Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resist Shred +%",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 432,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Thunder Gem",
+   "gemCategory": "stat",
+   "statType": "Stun Chance +%",
+   "value": 3.6,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Thunder Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Stun Chance +%",
+   "value": 5.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 432,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Crimson Gem",
+   "gemCategory": "stat",
+   "statType": "Bleed Chance +%",
+   "value": 7.3,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Crimson Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Bleed Chance +%",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 432,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Venom Gem",
+   "gemCategory": "stat",
+   "statType": "Poison Chance +%",
+   "value": 7.3,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Venom Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Poison Chance +%",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 432,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Frost Gem",
+   "gemCategory": "stat",
+   "statType": "Slow Chance +%",
+   "value": 7.3,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Frost Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Slow Chance +%",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 432,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Purity Gem",
+   "gemCategory": "stat",
+   "statType": "Status Resist +%",
+   "value": 10.9,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Purity Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Status Resist +%",
+   "value": 15.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 432,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Leech Gem",
+   "gemCategory": "stat",
+   "statType": "Lifesteal +%",
+   "value": 2.9,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Leech Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Lifesteal +%",
+   "value": 4.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 432,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Siphon Gem",
+   "gemCategory": "stat",
+   "statType": "MP Leech +%",
+   "value": 1.5,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Siphon Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP Leech +%",
+   "value": 2.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 432,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Briar Gem",
+   "gemCategory": "stat",
+   "statType": "Thorns +%",
+   "value": 4.4,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Briar Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Thorns +%",
+   "value": 6.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 432,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Riposte Gem",
+   "gemCategory": "stat",
+   "statType": "Counter Chance +%",
+   "value": 7.3,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Riposte Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Counter Chance +%",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 432,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Fortune Gem",
+   "gemCategory": "stat",
+   "statType": "Step Gold +%",
+   "value": 7.3,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Fortune Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Step Gold +%",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 432,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Pilgrim Gem",
+   "gemCategory": "stat",
+   "statType": "Goal Reduction +%",
+   "value": 3.6,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Advance Pilgrim Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Goal Reduction +%",
+   "value": 5.0,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 432,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Vitality Gem",
+   "gemCategory": "stat",
+   "statType": "HP flat+",
+   "value": 141,
+   "isPercentage": false,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Masterful Vitality Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP flat+",
+   "value": 200,
+   "isPercentage": false,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Masterful Renewal Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen flat+",
+   "value": 141,
+   "isPercentage": false,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Masterful Renewal Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen flat+",
+   "value": 200,
+   "isPercentage": false,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Masterful Recovery Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen %+",
+   "value": 24.6,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Masterful Recovery Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen %+",
+   "value": 30.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Masterful Ironhide Gem",
+   "gemCategory": "stat",
+   "statType": "Armor flat+",
+   "value": 141,
+   "isPercentage": false,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "body_armor",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Masterful Ironhide Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Armor flat+",
+   "value": 200,
+   "isPercentage": false,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "body_armor",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Masterful Mana Gem",
+   "gemCategory": "stat",
+   "statType": "MP flat+",
+   "value": 141,
+   "isPercentage": false,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Masterful Mana Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP flat+",
+   "value": 200,
+   "isPercentage": false,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Masterful Wellspring Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen flat+",
+   "value": 141,
+   "isPercentage": false,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Masterful Wellspring Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen flat+",
+   "value": 200,
+   "isPercentage": false,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Masterful Flow Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen %+",
+   "value": 24.6,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Masterful Flow Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen %+",
+   "value": 30.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Masterful Shadow Gem",
+   "gemCategory": "stat",
+   "statType": "Evasion +%",
+   "value": 24.6,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "helm",
+    "boots"
+   ]
+  },
+  {
+   "name": "Masterful Shadow Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Evasion +%",
+   "value": 30.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "helm",
+    "boots"
+   ]
+  },
+  {
+   "name": "Masterful Keen Gem",
+   "gemCategory": "stat",
+   "statType": "Precision +%",
+   "value": 24.6,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "helm"
+   ]
+  },
+  {
+   "name": "Masterful Keen Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Precision +%",
+   "value": 30.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "helm"
+   ]
+  },
+  {
+   "name": "Masterful Windstep Gem",
+   "gemCategory": "stat",
+   "statType": "Movement Speed flat+",
+   "value": 141,
+   "isPercentage": false,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "boots"
+   ]
+  },
+  {
+   "name": "Masterful Windstep Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Movement Speed flat+",
+   "value": 200,
+   "isPercentage": false,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "boots"
+   ]
+  },
+  {
+   "name": "Masterful Striker Gem",
+   "gemCategory": "stat",
+   "statType": "ATK flat+",
+   "value": 141,
+   "isPercentage": false,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Masterful Striker Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK flat+",
+   "value": 200,
+   "isPercentage": false,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Masterful Fury Gem",
+   "gemCategory": "stat",
+   "statType": "ATK %+",
+   "value": 24.6,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Masterful Fury Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK %+",
+   "value": 30.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Masterful Swiftness Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed flat+",
+   "value": 141,
+   "isPercentage": false,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Masterful Swiftness Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed flat+",
+   "value": 200,
+   "isPercentage": false,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Masterful Tempo Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed %+",
+   "value": 24.6,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Masterful Tempo Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed %+",
+   "value": 30.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Masterful Bulwark Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Blunt",
+   "value": 24.6,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Masterful Bulwark Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Blunt",
+   "value": 30.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Masterful Aegis Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Piercing",
+   "value": 24.6,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Masterful Aegis Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Piercing",
+   "value": 30.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Masterful Warding Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Slash",
+   "value": 24.6,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Masterful Warding Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Slash",
+   "value": 30.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Masterful Elemental Ward Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Elemental",
+   "value": 24.6,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 450,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Masterful Elemental Ward Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Elemental",
+   "value": 30.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 720,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Masterful Phantom Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Rate +%",
+   "value": 12.3,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Phantom Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Rate +%",
+   "value": 15.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 1080,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Ruin Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Damage +%",
+   "value": 24.6,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Ruin Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Damage +%",
+   "value": 30.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 1080,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Piercer Gem",
+   "gemCategory": "stat",
+   "statType": "Armor Penetration",
+   "value": 12.3,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Piercer Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Armor Penetration",
+   "value": 15.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 1080,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Sunder Gem",
+   "gemCategory": "stat",
+   "statType": "Resist Shred +%",
+   "value": 12.3,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Sunder Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resist Shred +%",
+   "value": 15.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 1080,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Thunder Gem",
+   "gemCategory": "stat",
+   "statType": "Stun Chance +%",
+   "value": 6.2,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Thunder Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Stun Chance +%",
+   "value": 7.5,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 1080,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Crimson Gem",
+   "gemCategory": "stat",
+   "statType": "Bleed Chance +%",
+   "value": 12.3,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Crimson Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Bleed Chance +%",
+   "value": 15.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 1080,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Venom Gem",
+   "gemCategory": "stat",
+   "statType": "Poison Chance +%",
+   "value": 12.3,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Venom Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Poison Chance +%",
+   "value": 15.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 1080,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Frost Gem",
+   "gemCategory": "stat",
+   "statType": "Slow Chance +%",
+   "value": 12.3,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Frost Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Slow Chance +%",
+   "value": 15.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 1080,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Purity Gem",
+   "gemCategory": "stat",
+   "statType": "Status Resist +%",
+   "value": 18.5,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Purity Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Status Resist +%",
+   "value": 22.5,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 1080,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Leech Gem",
+   "gemCategory": "stat",
+   "statType": "Lifesteal +%",
+   "value": 4.9,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Leech Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Lifesteal +%",
+   "value": 6.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 1080,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Siphon Gem",
+   "gemCategory": "stat",
+   "statType": "MP Leech +%",
+   "value": 2.5,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Siphon Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP Leech +%",
+   "value": 3.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 1080,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Briar Gem",
+   "gemCategory": "stat",
+   "statType": "Thorns +%",
+   "value": 7.4,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Briar Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Thorns +%",
+   "value": 9.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 1080,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Riposte Gem",
+   "gemCategory": "stat",
+   "statType": "Counter Chance +%",
+   "value": 12.3,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Riposte Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Counter Chance +%",
+   "value": 15.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 1080,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Fortune Gem",
+   "gemCategory": "stat",
+   "statType": "Step Gold +%",
+   "value": 12.3,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Fortune Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Step Gold +%",
+   "value": 15.0,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 1080,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Pilgrim Gem",
+   "gemCategory": "stat",
+   "statType": "Goal Reduction +%",
+   "value": 6.2,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Masterful Pilgrim Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Goal Reduction +%",
+   "value": 7.5,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 1080,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Vitality Gem",
+   "gemCategory": "stat",
+   "statType": "HP flat+",
+   "value": 281,
+   "isPercentage": false,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Elite Vitality Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP flat+",
+   "value": 400,
+   "isPercentage": false,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Elite Renewal Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen flat+",
+   "value": 281,
+   "isPercentage": false,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Elite Renewal Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen flat+",
+   "value": 400,
+   "isPercentage": false,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Elite Recovery Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen %+",
+   "value": 34.6,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Elite Recovery Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen %+",
+   "value": 40.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Elite Ironhide Gem",
+   "gemCategory": "stat",
+   "statType": "Armor flat+",
+   "value": 281,
+   "isPercentage": false,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "body_armor",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Elite Ironhide Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Armor flat+",
+   "value": 400,
+   "isPercentage": false,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "body_armor",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Elite Mana Gem",
+   "gemCategory": "stat",
+   "statType": "MP flat+",
+   "value": 281,
+   "isPercentage": false,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Elite Mana Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP flat+",
+   "value": 400,
+   "isPercentage": false,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Elite Wellspring Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen flat+",
+   "value": 281,
+   "isPercentage": false,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Elite Wellspring Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen flat+",
+   "value": 400,
+   "isPercentage": false,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Elite Flow Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen %+",
+   "value": 34.6,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Elite Flow Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen %+",
+   "value": 40.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Elite Shadow Gem",
+   "gemCategory": "stat",
+   "statType": "Evasion +%",
+   "value": 34.6,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "helm",
+    "boots"
+   ]
+  },
+  {
+   "name": "Elite Shadow Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Evasion +%",
+   "value": 40.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "helm",
+    "boots"
+   ]
+  },
+  {
+   "name": "Elite Keen Gem",
+   "gemCategory": "stat",
+   "statType": "Precision +%",
+   "value": 34.6,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "helm"
+   ]
+  },
+  {
+   "name": "Elite Keen Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Precision +%",
+   "value": 40.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "helm"
+   ]
+  },
+  {
+   "name": "Elite Windstep Gem",
+   "gemCategory": "stat",
+   "statType": "Movement Speed flat+",
+   "value": 281,
+   "isPercentage": false,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "boots"
+   ]
+  },
+  {
+   "name": "Elite Windstep Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Movement Speed flat+",
+   "value": 400,
+   "isPercentage": false,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "boots"
+   ]
+  },
+  {
+   "name": "Elite Striker Gem",
+   "gemCategory": "stat",
+   "statType": "ATK flat+",
+   "value": 281,
+   "isPercentage": false,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Elite Striker Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK flat+",
+   "value": 400,
+   "isPercentage": false,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Elite Fury Gem",
+   "gemCategory": "stat",
+   "statType": "ATK %+",
+   "value": 34.6,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Elite Fury Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK %+",
+   "value": 40.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Elite Swiftness Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed flat+",
+   "value": 281,
+   "isPercentage": false,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Elite Swiftness Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed flat+",
+   "value": 400,
+   "isPercentage": false,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Elite Tempo Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed %+",
+   "value": 34.6,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Elite Tempo Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed %+",
+   "value": 40.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Elite Bulwark Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Blunt",
+   "value": 34.6,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Elite Bulwark Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Blunt",
+   "value": 40.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Elite Aegis Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Piercing",
+   "value": 34.6,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Elite Aegis Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Piercing",
+   "value": 40.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Elite Warding Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Slash",
+   "value": 34.6,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Elite Warding Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Slash",
+   "value": 40.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Elite Elemental Ward Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Elemental",
+   "value": 34.6,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1100,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Elite Elemental Ward Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Elemental",
+   "value": 40.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1760,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Elite Phantom Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Rate +%",
+   "value": 17.3,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Phantom Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Rate +%",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2640,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Ruin Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Damage +%",
+   "value": 34.6,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Ruin Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Damage +%",
+   "value": 40.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2640,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Piercer Gem",
+   "gemCategory": "stat",
+   "statType": "Armor Penetration",
+   "value": 17.3,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Piercer Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Armor Penetration",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2640,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Sunder Gem",
+   "gemCategory": "stat",
+   "statType": "Resist Shred +%",
+   "value": 17.3,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Sunder Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resist Shred +%",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2640,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Thunder Gem",
+   "gemCategory": "stat",
+   "statType": "Stun Chance +%",
+   "value": 8.7,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Thunder Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Stun Chance +%",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2640,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Crimson Gem",
+   "gemCategory": "stat",
+   "statType": "Bleed Chance +%",
+   "value": 17.3,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Crimson Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Bleed Chance +%",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2640,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Venom Gem",
+   "gemCategory": "stat",
+   "statType": "Poison Chance +%",
+   "value": 17.3,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Venom Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Poison Chance +%",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2640,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Frost Gem",
+   "gemCategory": "stat",
+   "statType": "Slow Chance +%",
+   "value": 17.3,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Frost Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Slow Chance +%",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2640,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Purity Gem",
+   "gemCategory": "stat",
+   "statType": "Status Resist +%",
+   "value": 26.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Purity Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Status Resist +%",
+   "value": 30.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2640,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Leech Gem",
+   "gemCategory": "stat",
+   "statType": "Lifesteal +%",
+   "value": 6.9,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Leech Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Lifesteal +%",
+   "value": 8.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2640,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Siphon Gem",
+   "gemCategory": "stat",
+   "statType": "MP Leech +%",
+   "value": 3.5,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Siphon Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP Leech +%",
+   "value": 4.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2640,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Briar Gem",
+   "gemCategory": "stat",
+   "statType": "Thorns +%",
+   "value": 10.4,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Briar Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Thorns +%",
+   "value": 12.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2640,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Riposte Gem",
+   "gemCategory": "stat",
+   "statType": "Counter Chance +%",
+   "value": 17.3,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Riposte Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Counter Chance +%",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2640,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Fortune Gem",
+   "gemCategory": "stat",
+   "statType": "Step Gold +%",
+   "value": 17.3,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Fortune Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Step Gold +%",
+   "value": 20.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2640,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Pilgrim Gem",
+   "gemCategory": "stat",
+   "statType": "Goal Reduction +%",
+   "value": 8.7,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Elite Pilgrim Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Goal Reduction +%",
+   "value": 10.0,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2640,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Vitality Gem",
+   "gemCategory": "stat",
+   "statType": "HP flat+",
+   "value": 481,
+   "isPercentage": false,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Legendary Vitality Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP flat+",
+   "value": 600,
+   "isPercentage": false,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Legendary Renewal Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen flat+",
+   "value": 481,
+   "isPercentage": false,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Legendary Renewal Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen flat+",
+   "value": 600,
+   "isPercentage": false,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Legendary Recovery Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen %+",
+   "value": 46.6,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Legendary Recovery Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen %+",
+   "value": 55.0,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Legendary Ironhide Gem",
+   "gemCategory": "stat",
+   "statType": "Armor flat+",
+   "value": 481,
+   "isPercentage": false,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "body_armor",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Legendary Ironhide Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Armor flat+",
+   "value": 600,
+   "isPercentage": false,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "body_armor",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Legendary Mana Gem",
+   "gemCategory": "stat",
+   "statType": "MP flat+",
+   "value": 481,
+   "isPercentage": false,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Legendary Mana Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP flat+",
+   "value": 600,
+   "isPercentage": false,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Legendary Wellspring Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen flat+",
+   "value": 481,
+   "isPercentage": false,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Legendary Wellspring Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen flat+",
+   "value": 600,
+   "isPercentage": false,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Legendary Flow Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen %+",
+   "value": 46.6,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Legendary Flow Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen %+",
+   "value": 55.0,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Legendary Shadow Gem",
+   "gemCategory": "stat",
+   "statType": "Evasion +%",
+   "value": 46.6,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "helm",
+    "boots"
+   ]
+  },
+  {
+   "name": "Legendary Shadow Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Evasion +%",
+   "value": 55.0,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "helm",
+    "boots"
+   ]
+  },
+  {
+   "name": "Legendary Keen Gem",
+   "gemCategory": "stat",
+   "statType": "Precision +%",
+   "value": 46.6,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "helm"
+   ]
+  },
+  {
+   "name": "Legendary Keen Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Precision +%",
+   "value": 55.0,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "helm"
+   ]
+  },
+  {
+   "name": "Legendary Windstep Gem",
+   "gemCategory": "stat",
+   "statType": "Movement Speed flat+",
+   "value": 481,
+   "isPercentage": false,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "boots"
+   ]
+  },
+  {
+   "name": "Legendary Windstep Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Movement Speed flat+",
+   "value": 600,
+   "isPercentage": false,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "boots"
+   ]
+  },
+  {
+   "name": "Legendary Striker Gem",
+   "gemCategory": "stat",
+   "statType": "ATK flat+",
+   "value": 481,
+   "isPercentage": false,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Legendary Striker Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK flat+",
+   "value": 600,
+   "isPercentage": false,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Legendary Fury Gem",
+   "gemCategory": "stat",
+   "statType": "ATK %+",
+   "value": 46.6,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Legendary Fury Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK %+",
+   "value": 55.0,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Legendary Swiftness Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed flat+",
+   "value": 481,
+   "isPercentage": false,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Legendary Swiftness Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed flat+",
+   "value": 600,
+   "isPercentage": false,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Legendary Tempo Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed %+",
+   "value": 46.6,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Legendary Tempo Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed %+",
+   "value": 55.0,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Legendary Bulwark Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Blunt",
+   "value": 46.6,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Legendary Bulwark Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Blunt",
+   "value": 55.0,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Legendary Aegis Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Piercing",
+   "value": 46.6,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Legendary Aegis Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Piercing",
+   "value": 55.0,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Legendary Warding Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Slash",
+   "value": 46.6,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Legendary Warding Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Slash",
+   "value": 55.0,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Legendary Elemental Ward Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Elemental",
+   "value": 46.6,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 2800,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Legendary Elemental Ward Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Elemental",
+   "value": 55.0,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4480,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Legendary Phantom Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Rate +%",
+   "value": 23.3,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Phantom Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Rate +%",
+   "value": 27.5,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 6720,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Ruin Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Damage +%",
+   "value": 46.6,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Ruin Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Damage +%",
+   "value": 55.0,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 6720,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Piercer Gem",
+   "gemCategory": "stat",
+   "statType": "Armor Penetration",
+   "value": 23.3,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Piercer Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Armor Penetration",
+   "value": 27.5,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 6720,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Sunder Gem",
+   "gemCategory": "stat",
+   "statType": "Resist Shred +%",
+   "value": 23.3,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Sunder Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resist Shred +%",
+   "value": 27.5,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 6720,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Thunder Gem",
+   "gemCategory": "stat",
+   "statType": "Stun Chance +%",
+   "value": 11.7,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Thunder Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Stun Chance +%",
+   "value": 13.8,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 6720,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Crimson Gem",
+   "gemCategory": "stat",
+   "statType": "Bleed Chance +%",
+   "value": 23.3,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Crimson Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Bleed Chance +%",
+   "value": 27.5,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 6720,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Venom Gem",
+   "gemCategory": "stat",
+   "statType": "Poison Chance +%",
+   "value": 23.3,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Venom Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Poison Chance +%",
+   "value": 27.5,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 6720,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Frost Gem",
+   "gemCategory": "stat",
+   "statType": "Slow Chance +%",
+   "value": 23.3,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Frost Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Slow Chance +%",
+   "value": 27.5,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 6720,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Purity Gem",
+   "gemCategory": "stat",
+   "statType": "Status Resist +%",
+   "value": 35.0,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Purity Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Status Resist +%",
+   "value": 41.2,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 6720,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Leech Gem",
+   "gemCategory": "stat",
+   "statType": "Lifesteal +%",
+   "value": 9.3,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Leech Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Lifesteal +%",
+   "value": 11.0,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 6720,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Siphon Gem",
+   "gemCategory": "stat",
+   "statType": "MP Leech +%",
+   "value": 4.7,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Siphon Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP Leech +%",
+   "value": 5.5,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 6720,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Briar Gem",
+   "gemCategory": "stat",
+   "statType": "Thorns +%",
+   "value": 14.0,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Briar Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Thorns +%",
+   "value": 16.5,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 6720,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Riposte Gem",
+   "gemCategory": "stat",
+   "statType": "Counter Chance +%",
+   "value": 23.3,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Riposte Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Counter Chance +%",
+   "value": 27.5,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 6720,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Fortune Gem",
+   "gemCategory": "stat",
+   "statType": "Step Gold +%",
+   "value": 23.3,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Fortune Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Step Gold +%",
+   "value": 27.5,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 6720,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Pilgrim Gem",
+   "gemCategory": "stat",
+   "statType": "Goal Reduction +%",
+   "value": 11.7,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Legendary Pilgrim Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Goal Reduction +%",
+   "value": 13.8,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 6720,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Vitality Gem",
+   "gemCategory": "stat",
+   "statType": "HP flat+",
+   "value": 961,
+   "isPercentage": false,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Mythical Vitality Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP flat+",
+   "value": 1500,
+   "isPercentage": false,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Mythical Renewal Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen flat+",
+   "value": 961,
+   "isPercentage": false,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Mythical Renewal Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen flat+",
+   "value": 1500,
+   "isPercentage": false,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Mythical Recovery Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen %+",
+   "value": 63.6,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Mythical Recovery Prime Gem",
+   "gemCategory": "stat",
+   "statType": "HP regen %+",
+   "value": 75.0,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Mythical Ironhide Gem",
+   "gemCategory": "stat",
+   "statType": "Armor flat+",
+   "value": 961,
+   "isPercentage": false,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "body_armor",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Mythical Ironhide Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Armor flat+",
+   "value": 1500,
+   "isPercentage": false,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "body_armor",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Mythical Mana Gem",
+   "gemCategory": "stat",
+   "statType": "MP flat+",
+   "value": 961,
+   "isPercentage": false,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Mythical Mana Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP flat+",
+   "value": 1500,
+   "isPercentage": false,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Mythical Wellspring Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen flat+",
+   "value": 961,
+   "isPercentage": false,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Mythical Wellspring Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen flat+",
+   "value": 1500,
+   "isPercentage": false,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Mythical Flow Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen %+",
+   "value": 63.6,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Mythical Flow Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP regen %+",
+   "value": 75.0,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "body_armor",
+    "belt",
+    "leggings"
+   ]
+  },
+  {
+   "name": "Mythical Shadow Gem",
+   "gemCategory": "stat",
+   "statType": "Evasion +%",
+   "value": 63.6,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "helm",
+    "boots"
+   ]
+  },
+  {
+   "name": "Mythical Shadow Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Evasion +%",
+   "value": 75.0,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "helm",
+    "boots"
+   ]
+  },
+  {
+   "name": "Mythical Keen Gem",
+   "gemCategory": "stat",
+   "statType": "Precision +%",
+   "value": 63.6,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "helm"
+   ]
+  },
+  {
+   "name": "Mythical Keen Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Precision +%",
+   "value": 75.0,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "helm"
+   ]
+  },
+  {
+   "name": "Mythical Windstep Gem",
+   "gemCategory": "stat",
+   "statType": "Movement Speed flat+",
+   "value": 961,
+   "isPercentage": false,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "boots"
+   ]
+  },
+  {
+   "name": "Mythical Windstep Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Movement Speed flat+",
+   "value": 1500,
+   "isPercentage": false,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "boots"
+   ]
+  },
+  {
+   "name": "Mythical Striker Gem",
+   "gemCategory": "stat",
+   "statType": "ATK flat+",
+   "value": 961,
+   "isPercentage": false,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Mythical Striker Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK flat+",
+   "value": 1500,
+   "isPercentage": false,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Mythical Fury Gem",
+   "gemCategory": "stat",
+   "statType": "ATK %+",
+   "value": 63.6,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Mythical Fury Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK %+",
+   "value": 75.0,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Mythical Swiftness Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed flat+",
+   "value": 961,
+   "isPercentage": false,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Mythical Swiftness Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed flat+",
+   "value": 1500,
+   "isPercentage": false,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Mythical Tempo Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed %+",
+   "value": 63.6,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Mythical Tempo Prime Gem",
+   "gemCategory": "stat",
+   "statType": "ATK speed %+",
+   "value": 75.0,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "gloves"
+   ]
+  },
+  {
+   "name": "Mythical Bulwark Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Blunt",
+   "value": 63.6,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Mythical Bulwark Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Blunt",
+   "value": 75.0,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Mythical Aegis Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Piercing",
+   "value": 63.6,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Mythical Aegis Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Piercing",
+   "value": 75.0,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Mythical Warding Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Slash",
+   "value": 63.6,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Mythical Warding Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Slash",
+   "value": 75.0,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Mythical Elemental Ward Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Elemental",
+   "value": 63.6,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 7500,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Mythical Elemental Ward Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resistance: Elemental",
+   "value": 75.0,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 12000,
+   "allowedSlots": [
+    "pauldrons"
+   ]
+  },
+  {
+   "name": "Mythical Phantom Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Rate +%",
+   "value": 31.8,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Phantom Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Rate +%",
+   "value": 37.5,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 18000,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Ruin Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Damage +%",
+   "value": 63.6,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Ruin Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Crit Damage +%",
+   "value": 75.0,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 18000,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Piercer Gem",
+   "gemCategory": "stat",
+   "statType": "Armor Penetration",
+   "value": 31.8,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Piercer Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Armor Penetration",
+   "value": 37.5,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 18000,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Sunder Gem",
+   "gemCategory": "stat",
+   "statType": "Resist Shred +%",
+   "value": 31.8,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Sunder Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Resist Shred +%",
+   "value": 37.5,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 18000,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Thunder Gem",
+   "gemCategory": "stat",
+   "statType": "Stun Chance +%",
+   "value": 15.9,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Thunder Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Stun Chance +%",
+   "value": 18.8,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 18000,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Crimson Gem",
+   "gemCategory": "stat",
+   "statType": "Bleed Chance +%",
+   "value": 31.8,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Crimson Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Bleed Chance +%",
+   "value": 37.5,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 18000,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Venom Gem",
+   "gemCategory": "stat",
+   "statType": "Poison Chance +%",
+   "value": 31.8,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Venom Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Poison Chance +%",
+   "value": 37.5,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 18000,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Frost Gem",
+   "gemCategory": "stat",
+   "statType": "Slow Chance +%",
+   "value": 31.8,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Frost Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Slow Chance +%",
+   "value": 37.5,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 18000,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Purity Gem",
+   "gemCategory": "stat",
+   "statType": "Status Resist +%",
+   "value": 47.7,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Purity Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Status Resist +%",
+   "value": 56.2,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 18000,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Leech Gem",
+   "gemCategory": "stat",
+   "statType": "Lifesteal +%",
+   "value": 12.7,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Leech Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Lifesteal +%",
+   "value": 15.0,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 18000,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Siphon Gem",
+   "gemCategory": "stat",
+   "statType": "MP Leech +%",
+   "value": 6.4,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Siphon Prime Gem",
+   "gemCategory": "stat",
+   "statType": "MP Leech +%",
+   "value": 7.5,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 18000,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Briar Gem",
+   "gemCategory": "stat",
+   "statType": "Thorns +%",
+   "value": 19.1,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Briar Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Thorns +%",
+   "value": 22.5,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 18000,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Riposte Gem",
+   "gemCategory": "stat",
+   "statType": "Counter Chance +%",
+   "value": 31.8,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Riposte Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Counter Chance +%",
+   "value": 37.5,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 18000,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Fortune Gem",
+   "gemCategory": "stat",
+   "statType": "Step Gold +%",
+   "value": 31.8,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Fortune Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Step Gold +%",
+   "value": 37.5,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 18000,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Pilgrim Gem",
+   "gemCategory": "stat",
+   "statType": "Goal Reduction +%",
+   "value": 15.9,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Mythical Pilgrim Prime Gem",
+   "gemCategory": "stat",
+   "statType": "Goal Reduction +%",
+   "value": 18.8,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 18000,
+   "allowedSlots": [
+    "necklace",
+    "ring"
+   ]
+  },
+  {
+   "name": "Heavy Slash (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 140% Physical DMG (15 MP, 3 turn CD)",
+   "value": 140,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 15,
+   "cooldown": 3
+  },
+  {
+   "name": "Shield Slam (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 140% Blunt DMG + stun chance (20 MP, 4 turn CD)",
+   "value": 140,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "damage",
+   "damageType": "Blunt",
+   "mpCost": 20,
+   "cooldown": 4
+  },
+  {
+   "name": "Iron Resolve (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Gain 20% Armor for 3 turns (25 MP, 6 turn CD)",
+   "value": 20,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 25,
+   "cooldown": 6
+  },
+  {
+   "name": "Crescent Cut (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 140% Slash DMG (14 MP, 2 turn CD)",
+   "value": 140,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "damage",
+   "damageType": "Slash",
+   "mpCost": 14,
+   "cooldown": 2
+  },
+  {
+   "name": "Blade Flurry (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 3 hits of 140% Slash DMG each / 3 (22 MP, 4 turn CD)",
+   "value": 140,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "damage",
+   "damageType": "Slash",
+   "mpCost": 22,
+   "cooldown": 4
+  },
+  {
+   "name": "Riposte Stance (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Counter attacks for 20% DMG (18 MP, 5 turn CD)",
+   "value": 20,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 18,
+   "cooldown": 5
+  },
+  {
+   "name": "Piercing Shot (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 140% Piercing DMG (14 MP, 2 turn CD)",
+   "value": 140,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "damage",
+   "damageType": "Piercing",
+   "mpCost": 14,
+   "cooldown": 2
+  },
+  {
+   "name": "Volley (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Hits 3 times for 140% total (24 MP, 4 turn CD)",
+   "value": 140,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "damage",
+   "damageType": "Piercing",
+   "mpCost": 24,
+   "cooldown": 4
+  },
+  {
+   "name": "Hunter's Mark (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Target takes +10% DMG (12 MP, 5 turn CD)",
+   "value": 10,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 12,
+   "cooldown": 5
+  },
+  {
+   "name": "Arcane Bolt (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 140% Elemental DMG (18 MP, 2 turn CD)",
+   "value": 140,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "damage",
+   "damageType": "Elemental",
+   "mpCost": 18,
+   "cooldown": 2
+  },
+  {
+   "name": "Firestorm (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 140% Elemental DMG + burn (28 MP, 5 turn CD)",
+   "value": 140,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "damage",
+   "damageType": "Elemental",
+   "mpCost": 28,
+   "cooldown": 5
+  },
+  {
+   "name": "Mana Shield (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Absorb 20% DMG using MP (22 MP, 6 turn CD)",
+   "value": 20,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 22,
+   "cooldown": 6
+  },
+  {
+   "name": "Trail Strike (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 140% Physical DMG (12 MP, 2 turn CD)",
+   "value": 140,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 12,
+   "cooldown": 2
+  },
+  {
+   "name": "Second Wind (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Restore 15% Max HP (25 MP, 5 turn CD)",
+   "value": 15,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "heal",
+   "damageType": null,
+   "mpCost": 25,
+   "cooldown": 5
+  },
+  {
+   "name": "Pathfinder (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: +10% Movement Speed for 3 turns (15 MP, 6 turn CD)",
+   "value": 10,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 15,
+   "cooldown": 6
+  },
+  {
+   "name": "Power Strike (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 140% Physical DMG (14 MP, 3 turn CD)",
+   "value": 140,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 14,
+   "cooldown": 3
+  },
+  {
+   "name": "Mend (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Restore 15% Max HP (22 MP, 5 turn CD)",
+   "value": 15,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "heal",
+   "damageType": null,
+   "mpCost": 22,
+   "cooldown": 5
+  },
+  {
+   "name": "Focus (Newbie)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Next skill +10% power (10 MP, 4 turn CD)",
+   "value": 10,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 100,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 10,
+   "cooldown": 4
+  },
+  {
+   "name": "Heavy Slash (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 189% Physical DMG (16 MP, 3 turn CD)",
+   "value": 189,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 16,
+   "cooldown": 3
+  },
+  {
+   "name": "Shield Slam (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 189% Blunt DMG + stun chance (22 MP, 4 turn CD)",
+   "value": 189,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "damage",
+   "damageType": "Blunt",
+   "mpCost": 22,
+   "cooldown": 4
+  },
+  {
+   "name": "Iron Resolve (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Gain 27% Armor for 3 turns (28 MP, 6 turn CD)",
+   "value": 27,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 28,
+   "cooldown": 6
+  },
+  {
+   "name": "Crescent Cut (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 189% Slash DMG (15 MP, 2 turn CD)",
+   "value": 189,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "damage",
+   "damageType": "Slash",
+   "mpCost": 15,
+   "cooldown": 2
+  },
+  {
+   "name": "Blade Flurry (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 3 hits of 189% Slash DMG each / 3 (24 MP, 4 turn CD)",
+   "value": 189,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "damage",
+   "damageType": "Slash",
+   "mpCost": 24,
+   "cooldown": 4
+  },
+  {
+   "name": "Riposte Stance (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Counter attacks for 27% DMG (20 MP, 5 turn CD)",
+   "value": 27,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 20,
+   "cooldown": 5
+  },
+  {
+   "name": "Piercing Shot (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 189% Piercing DMG (15 MP, 2 turn CD)",
+   "value": 189,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "damage",
+   "damageType": "Piercing",
+   "mpCost": 15,
+   "cooldown": 2
+  },
+  {
+   "name": "Volley (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Hits 3 times for 189% total (26 MP, 4 turn CD)",
+   "value": 189,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "damage",
+   "damageType": "Piercing",
+   "mpCost": 26,
+   "cooldown": 4
+  },
+  {
+   "name": "Hunter's Mark (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Target takes +14% DMG (13 MP, 5 turn CD)",
+   "value": 14,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 13,
+   "cooldown": 5
+  },
+  {
+   "name": "Arcane Bolt (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 189% Elemental DMG (20 MP, 2 turn CD)",
+   "value": 189,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "damage",
+   "damageType": "Elemental",
+   "mpCost": 20,
+   "cooldown": 2
+  },
+  {
+   "name": "Firestorm (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 189% Elemental DMG + burn (31 MP, 5 turn CD)",
+   "value": 189,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "damage",
+   "damageType": "Elemental",
+   "mpCost": 31,
+   "cooldown": 5
+  },
+  {
+   "name": "Mana Shield (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Absorb 27% DMG using MP (24 MP, 6 turn CD)",
+   "value": 27,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 24,
+   "cooldown": 6
+  },
+  {
+   "name": "Trail Strike (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 189% Physical DMG (13 MP, 2 turn CD)",
+   "value": 189,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 13,
+   "cooldown": 2
+  },
+  {
+   "name": "Second Wind (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Restore 20% Max HP (28 MP, 5 turn CD)",
+   "value": 20,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "heal",
+   "damageType": null,
+   "mpCost": 28,
+   "cooldown": 5
+  },
+  {
+   "name": "Pathfinder (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: +14% Movement Speed for 3 turns (16 MP, 6 turn CD)",
+   "value": 14,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 16,
+   "cooldown": 6
+  },
+  {
+   "name": "Power Strike (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 189% Physical DMG (15 MP, 3 turn CD)",
+   "value": 189,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 15,
+   "cooldown": 3
+  },
+  {
+   "name": "Mend (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Restore 20% Max HP (24 MP, 5 turn CD)",
+   "value": 20,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "heal",
+   "damageType": null,
+   "mpCost": 24,
+   "cooldown": 5
+  },
+  {
+   "name": "Focus (Advance)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Next skill +14% power (11 MP, 4 turn CD)",
+   "value": 14,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 360,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 11,
+   "cooldown": 4
+  },
+  {
+   "name": "Heavy Slash (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 238% Physical DMG (18 MP, 3 turn CD)",
+   "value": 238,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 18,
+   "cooldown": 3
+  },
+  {
+   "name": "Shield Slam (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 238% Blunt DMG + stun chance (24 MP, 4 turn CD)",
+   "value": 238,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "damage",
+   "damageType": "Blunt",
+   "mpCost": 24,
+   "cooldown": 4
+  },
+  {
+   "name": "Iron Resolve (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Gain 34% Armor for 3 turns (30 MP, 6 turn CD)",
+   "value": 34,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 30,
+   "cooldown": 6
+  },
+  {
+   "name": "Crescent Cut (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 238% Slash DMG (17 MP, 2 turn CD)",
+   "value": 238,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "damage",
+   "damageType": "Slash",
+   "mpCost": 17,
+   "cooldown": 2
+  },
+  {
+   "name": "Blade Flurry (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 3 hits of 238% Slash DMG each / 3 (26 MP, 4 turn CD)",
+   "value": 238,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "damage",
+   "damageType": "Slash",
+   "mpCost": 26,
+   "cooldown": 4
+  },
+  {
+   "name": "Riposte Stance (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Counter attacks for 34% DMG (22 MP, 5 turn CD)",
+   "value": 34,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 22,
+   "cooldown": 5
+  },
+  {
+   "name": "Piercing Shot (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 238% Piercing DMG (17 MP, 2 turn CD)",
+   "value": 238,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "damage",
+   "damageType": "Piercing",
+   "mpCost": 17,
+   "cooldown": 2
+  },
+  {
+   "name": "Volley (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Hits 3 times for 238% total (29 MP, 4 turn CD)",
+   "value": 238,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "damage",
+   "damageType": "Piercing",
+   "mpCost": 29,
+   "cooldown": 4
+  },
+  {
+   "name": "Hunter's Mark (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Target takes +17% DMG (14 MP, 5 turn CD)",
+   "value": 17,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 14,
+   "cooldown": 5
+  },
+  {
+   "name": "Arcane Bolt (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 238% Elemental DMG (22 MP, 2 turn CD)",
+   "value": 238,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "damage",
+   "damageType": "Elemental",
+   "mpCost": 22,
+   "cooldown": 2
+  },
+  {
+   "name": "Firestorm (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 238% Elemental DMG + burn (34 MP, 5 turn CD)",
+   "value": 238,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "damage",
+   "damageType": "Elemental",
+   "mpCost": 34,
+   "cooldown": 5
+  },
+  {
+   "name": "Mana Shield (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Absorb 34% DMG using MP (26 MP, 6 turn CD)",
+   "value": 34,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 26,
+   "cooldown": 6
+  },
+  {
+   "name": "Trail Strike (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 238% Physical DMG (14 MP, 2 turn CD)",
+   "value": 238,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 14,
+   "cooldown": 2
+  },
+  {
+   "name": "Second Wind (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Restore 26% Max HP (30 MP, 5 turn CD)",
+   "value": 26,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "heal",
+   "damageType": null,
+   "mpCost": 30,
+   "cooldown": 5
+  },
+  {
+   "name": "Pathfinder (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: +17% Movement Speed for 3 turns (18 MP, 6 turn CD)",
+   "value": 17,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 18,
+   "cooldown": 6
+  },
+  {
+   "name": "Power Strike (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 238% Physical DMG (17 MP, 3 turn CD)",
+   "value": 238,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 17,
+   "cooldown": 3
+  },
+  {
+   "name": "Mend (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Restore 26% Max HP (26 MP, 5 turn CD)",
+   "value": 26,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "heal",
+   "damageType": null,
+   "mpCost": 26,
+   "cooldown": 5
+  },
+  {
+   "name": "Focus (Masterful)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Next skill +17% power (12 MP, 4 turn CD)",
+   "value": 17,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 900,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 12,
+   "cooldown": 4
+  },
+  {
+   "name": "Heavy Slash (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 287% Physical DMG (20 MP, 3 turn CD)",
+   "value": 287,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 20,
+   "cooldown": 3
+  },
+  {
+   "name": "Shield Slam (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 287% Blunt DMG + stun chance (26 MP, 4 turn CD)",
+   "value": 287,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "damage",
+   "damageType": "Blunt",
+   "mpCost": 26,
+   "cooldown": 4
+  },
+  {
+   "name": "Iron Resolve (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Gain 41% Armor for 3 turns (32 MP, 6 turn CD)",
+   "value": 41,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 32,
+   "cooldown": 6
+  },
+  {
+   "name": "Crescent Cut (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 287% Slash DMG (18 MP, 2 turn CD)",
+   "value": 287,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "damage",
+   "damageType": "Slash",
+   "mpCost": 18,
+   "cooldown": 2
+  },
+  {
+   "name": "Blade Flurry (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 3 hits of 287% Slash DMG each / 3 (29 MP, 4 turn CD)",
+   "value": 287,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "damage",
+   "damageType": "Slash",
+   "mpCost": 29,
+   "cooldown": 4
+  },
+  {
+   "name": "Riposte Stance (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Counter attacks for 41% DMG (23 MP, 5 turn CD)",
+   "value": 41,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 23,
+   "cooldown": 5
+  },
+  {
+   "name": "Piercing Shot (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 287% Piercing DMG (18 MP, 2 turn CD)",
+   "value": 287,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "damage",
+   "damageType": "Piercing",
+   "mpCost": 18,
+   "cooldown": 2
+  },
+  {
+   "name": "Volley (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Hits 3 times for 287% total (31 MP, 4 turn CD)",
+   "value": 287,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "damage",
+   "damageType": "Piercing",
+   "mpCost": 31,
+   "cooldown": 4
+  },
+  {
+   "name": "Hunter's Mark (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Target takes +20% DMG (16 MP, 5 turn CD)",
+   "value": 20,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 16,
+   "cooldown": 5
+  },
+  {
+   "name": "Arcane Bolt (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 287% Elemental DMG (23 MP, 2 turn CD)",
+   "value": 287,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "damage",
+   "damageType": "Elemental",
+   "mpCost": 23,
+   "cooldown": 2
+  },
+  {
+   "name": "Firestorm (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 287% Elemental DMG + burn (36 MP, 5 turn CD)",
+   "value": 287,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "damage",
+   "damageType": "Elemental",
+   "mpCost": 36,
+   "cooldown": 5
+  },
+  {
+   "name": "Mana Shield (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Absorb 41% DMG using MP (29 MP, 6 turn CD)",
+   "value": 41,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 29,
+   "cooldown": 6
+  },
+  {
+   "name": "Trail Strike (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 287% Physical DMG (16 MP, 2 turn CD)",
+   "value": 287,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 16,
+   "cooldown": 2
+  },
+  {
+   "name": "Second Wind (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Restore 31% Max HP (32 MP, 5 turn CD)",
+   "value": 31,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "heal",
+   "damageType": null,
+   "mpCost": 32,
+   "cooldown": 5
+  },
+  {
+   "name": "Pathfinder (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: +20% Movement Speed for 3 turns (20 MP, 6 turn CD)",
+   "value": 20,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 20,
+   "cooldown": 6
+  },
+  {
+   "name": "Power Strike (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 287% Physical DMG (18 MP, 3 turn CD)",
+   "value": 287,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 18,
+   "cooldown": 3
+  },
+  {
+   "name": "Mend (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Restore 31% Max HP (29 MP, 5 turn CD)",
+   "value": 31,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "heal",
+   "damageType": null,
+   "mpCost": 29,
+   "cooldown": 5
+  },
+  {
+   "name": "Focus (Elite)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Next skill +20% power (13 MP, 4 turn CD)",
+   "value": 20,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 2200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 13,
+   "cooldown": 4
+  },
+  {
+   "name": "Heavy Slash (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 336% Physical DMG (21 MP, 3 turn CD)",
+   "value": 336,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 21,
+   "cooldown": 3
+  },
+  {
+   "name": "Shield Slam (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 336% Blunt DMG + stun chance (28 MP, 4 turn CD)",
+   "value": 336,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "damage",
+   "damageType": "Blunt",
+   "mpCost": 28,
+   "cooldown": 4
+  },
+  {
+   "name": "Iron Resolve (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Gain 48% Armor for 3 turns (35 MP, 6 turn CD)",
+   "value": 48,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 35,
+   "cooldown": 6
+  },
+  {
+   "name": "Crescent Cut (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 336% Slash DMG (20 MP, 2 turn CD)",
+   "value": 336,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "damage",
+   "damageType": "Slash",
+   "mpCost": 20,
+   "cooldown": 2
+  },
+  {
+   "name": "Blade Flurry (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 3 hits of 336% Slash DMG each / 3 (31 MP, 4 turn CD)",
+   "value": 336,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "damage",
+   "damageType": "Slash",
+   "mpCost": 31,
+   "cooldown": 4
+  },
+  {
+   "name": "Riposte Stance (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Counter attacks for 48% DMG (25 MP, 5 turn CD)",
+   "value": 48,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 25,
+   "cooldown": 5
+  },
+  {
+   "name": "Piercing Shot (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 336% Piercing DMG (20 MP, 2 turn CD)",
+   "value": 336,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "damage",
+   "damageType": "Piercing",
+   "mpCost": 20,
+   "cooldown": 2
+  },
+  {
+   "name": "Volley (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Hits 3 times for 336% total (34 MP, 4 turn CD)",
+   "value": 336,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "damage",
+   "damageType": "Piercing",
+   "mpCost": 34,
+   "cooldown": 4
+  },
+  {
+   "name": "Hunter's Mark (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Target takes +24% DMG (17 MP, 5 turn CD)",
+   "value": 24,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 17,
+   "cooldown": 5
+  },
+  {
+   "name": "Arcane Bolt (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 336% Elemental DMG (25 MP, 2 turn CD)",
+   "value": 336,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "damage",
+   "damageType": "Elemental",
+   "mpCost": 25,
+   "cooldown": 2
+  },
+  {
+   "name": "Firestorm (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 336% Elemental DMG + burn (39 MP, 5 turn CD)",
+   "value": 336,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "damage",
+   "damageType": "Elemental",
+   "mpCost": 39,
+   "cooldown": 5
+  },
+  {
+   "name": "Mana Shield (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Absorb 48% DMG using MP (31 MP, 6 turn CD)",
+   "value": 48,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 31,
+   "cooldown": 6
+  },
+  {
+   "name": "Trail Strike (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 336% Physical DMG (17 MP, 2 turn CD)",
+   "value": 336,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 17,
+   "cooldown": 2
+  },
+  {
+   "name": "Second Wind (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Restore 36% Max HP (35 MP, 5 turn CD)",
+   "value": 36,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "heal",
+   "damageType": null,
+   "mpCost": 35,
+   "cooldown": 5
+  },
+  {
+   "name": "Pathfinder (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: +24% Movement Speed for 3 turns (21 MP, 6 turn CD)",
+   "value": 24,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 21,
+   "cooldown": 6
+  },
+  {
+   "name": "Power Strike (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 336% Physical DMG (20 MP, 3 turn CD)",
+   "value": 336,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 20,
+   "cooldown": 3
+  },
+  {
+   "name": "Mend (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Restore 36% Max HP (31 MP, 5 turn CD)",
+   "value": 36,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "heal",
+   "damageType": null,
+   "mpCost": 31,
+   "cooldown": 5
+  },
+  {
+   "name": "Focus (Legendary)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Next skill +24% power (14 MP, 4 turn CD)",
+   "value": 24,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 5600,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 14,
+   "cooldown": 4
+  },
+  {
+   "name": "Heavy Slash (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 385% Physical DMG (22 MP, 3 turn CD)",
+   "value": 385,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 22,
+   "cooldown": 3
+  },
+  {
+   "name": "Shield Slam (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 385% Blunt DMG + stun chance (30 MP, 4 turn CD)",
+   "value": 385,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "damage",
+   "damageType": "Blunt",
+   "mpCost": 30,
+   "cooldown": 4
+  },
+  {
+   "name": "Iron Resolve (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Gain 55% Armor for 3 turns (38 MP, 6 turn CD)",
+   "value": 55,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "vanguard",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 38,
+   "cooldown": 6
+  },
+  {
+   "name": "Crescent Cut (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 385% Slash DMG (21 MP, 2 turn CD)",
+   "value": 385,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "damage",
+   "damageType": "Slash",
+   "mpCost": 21,
+   "cooldown": 2
+  },
+  {
+   "name": "Blade Flurry (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 3 hits of 385% Slash DMG each / 3 (33 MP, 4 turn CD)",
+   "value": 385,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "damage",
+   "damageType": "Slash",
+   "mpCost": 33,
+   "cooldown": 4
+  },
+  {
+   "name": "Riposte Stance (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Counter attacks for 55% DMG (27 MP, 5 turn CD)",
+   "value": 55,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "blademaster",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 27,
+   "cooldown": 5
+  },
+  {
+   "name": "Piercing Shot (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 385% Piercing DMG (21 MP, 2 turn CD)",
+   "value": 385,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "damage",
+   "damageType": "Piercing",
+   "mpCost": 21,
+   "cooldown": 2
+  },
+  {
+   "name": "Volley (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Hits 3 times for 385% total (36 MP, 4 turn CD)",
+   "value": 385,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "damage",
+   "damageType": "Piercing",
+   "mpCost": 36,
+   "cooldown": 4
+  },
+  {
+   "name": "Hunter's Mark (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Target takes +28% DMG (18 MP, 5 turn CD)",
+   "value": 28,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "ranger",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 18,
+   "cooldown": 5
+  },
+  {
+   "name": "Arcane Bolt (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 385% Elemental DMG (27 MP, 2 turn CD)",
+   "value": 385,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "damage",
+   "damageType": "Elemental",
+   "mpCost": 27,
+   "cooldown": 2
+  },
+  {
+   "name": "Firestorm (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 385% Elemental DMG + burn (42 MP, 5 turn CD)",
+   "value": 385,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "damage",
+   "damageType": "Elemental",
+   "mpCost": 42,
+   "cooldown": 5
+  },
+  {
+   "name": "Mana Shield (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Absorb 55% DMG using MP (33 MP, 6 turn CD)",
+   "value": 55,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "arcanist",
+   "skillCategory": "defensive",
+   "damageType": null,
+   "mpCost": 33,
+   "cooldown": 6
+  },
+  {
+   "name": "Trail Strike (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 385% Physical DMG (18 MP, 2 turn CD)",
+   "value": 385,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 18,
+   "cooldown": 2
+  },
+  {
+   "name": "Second Wind (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Restore 41% Max HP (38 MP, 5 turn CD)",
+   "value": 41,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "heal",
+   "damageType": null,
+   "mpCost": 38,
+   "cooldown": 5
+  },
+  {
+   "name": "Pathfinder (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: +28% Movement Speed for 3 turns (22 MP, 6 turn CD)",
+   "value": 28,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "wayfarer",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 22,
+   "cooldown": 6
+  },
+  {
+   "name": "Power Strike (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: 385% Physical DMG (21 MP, 3 turn CD)",
+   "value": 385,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "damage",
+   "damageType": "Physical",
+   "mpCost": 21,
+   "cooldown": 3
+  },
+  {
+   "name": "Mend (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Restore 41% Max HP (33 MP, 5 turn CD)",
+   "value": 41,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "heal",
+   "damageType": null,
+   "mpCost": 33,
+   "cooldown": 5
+  },
+  {
+   "name": "Focus (Mythical)",
+   "gemCategory": "active_skill",
+   "statType": "Active Skill: Next skill +28% power (15 MP, 4 turn CD)",
+   "value": 28,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 15000,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "classRestriction": "universal",
+   "skillCategory": "utility",
+   "damageType": null,
+   "mpCost": 15,
+   "cooldown": 4
+  },
+  {
+   "name": "Added Power Support (Newbie)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +10% DMG",
+   "value": 10,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Precision Link Support (Newbie)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +5% Crit Chance",
+   "value": 5,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Heavy Hand Support (Newbie)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +8% Crit Damage",
+   "value": 8,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Stunning Touch Support (Newbie)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +4% Stun Chance",
+   "value": 4,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Venom Coat Support (Newbie)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +6% Poison Chance",
+   "value": 6,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Rending Edge Support (Newbie)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +6% Bleed Chance",
+   "value": 6,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Mana Efficiency Support (Newbie)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Costs 8% less MP",
+   "value": 8,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Quick Recovery Support (Newbie)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Cooldown reduced 6%",
+   "value": 6,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Fortune Link Support (Newbie)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +3% Step Gold",
+   "value": 3,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Life Leech Support (Newbie)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Heals 3% of DMG dealt",
+   "value": 3,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Mana Leech Support (Newbie)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Restores 2% of DMG as MP",
+   "value": 2,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Guardian Link Support (Newbie)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Gain 5% Armor after cast",
+   "value": 5,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Thorned Echo Support (Newbie)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Reflect 4% DMG taken",
+   "value": 4,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  },
+  {
+   "name": "Counter Link Support (Newbie)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +5% Counter Chance",
+   "value": 5,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  },
+  {
+   "name": "Last Stand Support (Newbie)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +6% DMG below 30% HP",
+   "value": 6,
+   "isPercentage": true,
+   "tier": "newbie",
+   "price": 75,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  },
+  {
+   "name": "Added Power Support (Advance)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +16% DMG",
+   "value": 16,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Precision Link Support (Advance)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +8% Crit Chance",
+   "value": 8,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Heavy Hand Support (Advance)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +13% Crit Damage",
+   "value": 13,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Stunning Touch Support (Advance)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +6% Stun Chance",
+   "value": 6,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Venom Coat Support (Advance)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +10% Poison Chance",
+   "value": 10,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Rending Edge Support (Advance)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +10% Bleed Chance",
+   "value": 10,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Mana Efficiency Support (Advance)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Costs 13% less MP",
+   "value": 13,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Quick Recovery Support (Advance)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Cooldown reduced 10%",
+   "value": 10,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Fortune Link Support (Advance)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +5% Step Gold",
+   "value": 5,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Life Leech Support (Advance)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Heals 5% of DMG dealt",
+   "value": 5,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Mana Leech Support (Advance)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Restores 3% of DMG as MP",
+   "value": 3,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Guardian Link Support (Advance)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Gain 8% Armor after cast",
+   "value": 8,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Thorned Echo Support (Advance)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Reflect 6% DMG taken",
+   "value": 6,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  },
+  {
+   "name": "Counter Link Support (Advance)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +8% Counter Chance",
+   "value": 8,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  },
+  {
+   "name": "Last Stand Support (Advance)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +10% DMG below 30% HP",
+   "value": 10,
+   "isPercentage": true,
+   "tier": "advance",
+   "price": 270,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  },
+  {
+   "name": "Added Power Support (Masterful)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +22% DMG",
+   "value": 22,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Precision Link Support (Masterful)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +11% Crit Chance",
+   "value": 11,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Heavy Hand Support (Masterful)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +18% Crit Damage",
+   "value": 18,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Stunning Touch Support (Masterful)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +9% Stun Chance",
+   "value": 9,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Venom Coat Support (Masterful)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +13% Poison Chance",
+   "value": 13,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Rending Edge Support (Masterful)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +13% Bleed Chance",
+   "value": 13,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Mana Efficiency Support (Masterful)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Costs 18% less MP",
+   "value": 18,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Quick Recovery Support (Masterful)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Cooldown reduced 13%",
+   "value": 13,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Fortune Link Support (Masterful)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +7% Step Gold",
+   "value": 7,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Life Leech Support (Masterful)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Heals 7% of DMG dealt",
+   "value": 7,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Mana Leech Support (Masterful)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Restores 4% of DMG as MP",
+   "value": 4,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Guardian Link Support (Masterful)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Gain 11% Armor after cast",
+   "value": 11,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Thorned Echo Support (Masterful)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Reflect 9% DMG taken",
+   "value": 9,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  },
+  {
+   "name": "Counter Link Support (Masterful)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +11% Counter Chance",
+   "value": 11,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  },
+  {
+   "name": "Last Stand Support (Masterful)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +13% DMG below 30% HP",
+   "value": 13,
+   "isPercentage": true,
+   "tier": "masterful",
+   "price": 675,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  },
+  {
+   "name": "Added Power Support (Elite)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +28% DMG",
+   "value": 28,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Precision Link Support (Elite)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +14% Crit Chance",
+   "value": 14,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Heavy Hand Support (Elite)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +22% Crit Damage",
+   "value": 22,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Stunning Touch Support (Elite)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +11% Stun Chance",
+   "value": 11,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Venom Coat Support (Elite)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +17% Poison Chance",
+   "value": 17,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Rending Edge Support (Elite)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +17% Bleed Chance",
+   "value": 17,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Mana Efficiency Support (Elite)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Costs 22% less MP",
+   "value": 22,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Quick Recovery Support (Elite)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Cooldown reduced 17%",
+   "value": 17,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Fortune Link Support (Elite)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +8% Step Gold",
+   "value": 8,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Life Leech Support (Elite)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Heals 8% of DMG dealt",
+   "value": 8,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Mana Leech Support (Elite)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Restores 6% of DMG as MP",
+   "value": 6,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Guardian Link Support (Elite)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Gain 14% Armor after cast",
+   "value": 14,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Thorned Echo Support (Elite)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Reflect 11% DMG taken",
+   "value": 11,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  },
+  {
+   "name": "Counter Link Support (Elite)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +14% Counter Chance",
+   "value": 14,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  },
+  {
+   "name": "Last Stand Support (Elite)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +17% DMG below 30% HP",
+   "value": 17,
+   "isPercentage": true,
+   "tier": "elite",
+   "price": 1650,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  },
+  {
+   "name": "Added Power Support (Legendary)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +34% DMG",
+   "value": 34,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Precision Link Support (Legendary)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +17% Crit Chance",
+   "value": 17,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Heavy Hand Support (Legendary)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +27% Crit Damage",
+   "value": 27,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Stunning Touch Support (Legendary)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +14% Stun Chance",
+   "value": 14,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Venom Coat Support (Legendary)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +20% Poison Chance",
+   "value": 20,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Rending Edge Support (Legendary)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +20% Bleed Chance",
+   "value": 20,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Mana Efficiency Support (Legendary)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Costs 27% less MP",
+   "value": 27,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Quick Recovery Support (Legendary)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Cooldown reduced 20%",
+   "value": 20,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Fortune Link Support (Legendary)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +10% Step Gold",
+   "value": 10,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Life Leech Support (Legendary)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Heals 10% of DMG dealt",
+   "value": 10,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Mana Leech Support (Legendary)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Restores 7% of DMG as MP",
+   "value": 7,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Guardian Link Support (Legendary)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Gain 17% Armor after cast",
+   "value": 17,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Thorned Echo Support (Legendary)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Reflect 14% DMG taken",
+   "value": 14,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  },
+  {
+   "name": "Counter Link Support (Legendary)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +17% Counter Chance",
+   "value": 17,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  },
+  {
+   "name": "Last Stand Support (Legendary)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +20% DMG below 30% HP",
+   "value": 20,
+   "isPercentage": true,
+   "tier": "legendary",
+   "price": 4200,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  },
+  {
+   "name": "Added Power Support (Mythical)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +40% DMG",
+   "value": 40,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Precision Link Support (Mythical)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +20% Crit Chance",
+   "value": 20,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Heavy Hand Support (Mythical)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +32% Crit Damage",
+   "value": 32,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "offense"
+  },
+  {
+   "name": "Stunning Touch Support (Mythical)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +16% Stun Chance",
+   "value": 16,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Venom Coat Support (Mythical)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +24% Poison Chance",
+   "value": 24,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Rending Edge Support (Mythical)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +24% Bleed Chance",
+   "value": 24,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "disruption"
+  },
+  {
+   "name": "Mana Efficiency Support (Mythical)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Costs 32% less MP",
+   "value": 32,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Quick Recovery Support (Mythical)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Cooldown reduced 24%",
+   "value": 24,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Fortune Link Support (Mythical)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +12% Step Gold",
+   "value": 12,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "utility"
+  },
+  {
+   "name": "Life Leech Support (Mythical)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Heals 12% of DMG dealt",
+   "value": 12,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Mana Leech Support (Mythical)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Restores 8% of DMG as MP",
+   "value": 8,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Guardian Link Support (Mythical)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Gain 20% Armor after cast",
+   "value": 20,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "sustain"
+  },
+  {
+   "name": "Thorned Echo Support (Mythical)",
+   "gemCategory": "support_skill",
+   "statType": "Support: Reflect 16% DMG taken",
+   "value": 16,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  },
+  {
+   "name": "Counter Link Support (Mythical)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +20% Counter Chance",
+   "value": 20,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  },
+  {
+   "name": "Last Stand Support (Mythical)",
+   "gemCategory": "support_skill",
+   "statType": "Support: +24% DMG below 30% HP",
+   "value": 24,
+   "isPercentage": true,
+   "tier": "mythical",
+   "price": 11250,
+   "allowedSlots": [
+    "helm",
+    "body_armor",
+    "gloves",
+    "belt",
+    "leggings",
+    "boots"
+   ],
+   "supportGroup": "reactive"
+  }
+ ]
 }
